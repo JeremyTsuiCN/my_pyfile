@@ -51,8 +51,11 @@ def parse(*args):
             new_stu.append(name2)
         
     return lazy_stu,good_stu,new_stu
-                
-my_parse = parse(20191126,20191127)       
+
+
+old_date = input('please input a date before today: ')
+today =  input('what\'s the date today??')
+my_parse = parse(old_date,today)       
 
 def outPut(all_list):
     with open('output.csv','w') as file:
