@@ -1,2 +1,4 @@
-# wanna get some students' learning schedule from company's system.
-#these file is csv, and I am gonna output a new csv or json document.
+这套代码的功能：
+1 用于读取两个时段的，从学员课程进度数据里导出的csv文件
+2 对csv文件进行格式和信息处理，并输出为json文件
+3 利用这个json文件，筛选出用不同话术对应的学员，进行学习督促
